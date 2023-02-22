@@ -13,6 +13,23 @@
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md bg-light">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="./plants.html">Intresting plants</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="./basic.html">Basic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./advanced.html">Advanced</a>
+        </li>
+    </div>
+  </div>
+  </nav>
 <h1>Plants by Aasrita Emani</h1>
 <div class="container">
     <div class="row">
@@ -34,6 +51,119 @@
     </div\>
     <br>
 <p>Because the letters row has the character "col-sm," which denotes a small size, and the plant row has the character "col-md," which denotes a medium size and breaks more quickly,Hence the plant row breaks first.</p>
-</html>
+    <div class="container">
+      <img src="./Iris.jpg" alt="Iris" class="img-fluid" style="width:400px;height: 500px;">
+      <img src="./Magnolia.jpg" alt="Magnolia" class="img-fluid" style="width:400px;height: 500px;">
+      <img src="./Nemophila.jpeg" alt="Nemophila" class="img-fluid" style="width:400px;height: 500px;">
+    </div>
+    <br>
+    <br>
+    <div class="container">
+      <img src="./Iris.jpg" alt="Iris" class="img-thumbnail" style="width:400px;height: 500px;">
+      <img src="./Magnolia.jpg" alt="Magnolia" class="img-thumbnail" style="width:400px;height: 500px;">
+      <img src="./Nemophila.jpeg" alt="Nemophila" class="img-thumbnail" style="width:400px;height: 500px;">
+
+    </div>
+    <br>
+    <br>
+    <table class="table">
+      <caption>Mountains and Lakes related to my letters</caption>
+      <thead>
+        <tr class="table-danger">
+          <th scope="col">Letter</th>
+          <th scope="col">Plant</th>
+          <th scope="col">Mountain</th>
+          <th scope="col">Lake</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-primary">
+          <th scope="row">E</th>
+          <td>Eriophyllum</td>
+          <td>Everest</td>
+          <td>Erie</td>
+        </tr><tr class="table-dark">
+          <th scope="row">M</th>
+          <td>Magnolia</td>
+          <td>Mocho</td>
+          <td>Mafu</td>
+        </tr><tr class="table-info">
+          <th scope="row">A</th>
+          <td>Amanita</td>
+          <td>Aneto</td>
+          <td>Abaya</td>
+        </tr><tr class="table-success">
+          <th scope="row">N</th>
+          <td>Nemophila</td>
+          <td>Namamsan</td>
+          <td>Narmada</td>
+        </tr><tr class="table-danger">
+          <th scope="row">I</th>
+          <td>Iris</td>
+          <td>Ishpatina</td>
+          <td>Isha</td>
+        </tr><tr class="table-secondary">
+          <th scope="row">A</th>
+          <td>Anemone</td>
+          <td>Ameri</td>
+          <td>Anushka</td>
+        </tr>
+      </tbody>
+    </table>
+    <br><br>
+    <button type="button" class="btn">E</button>
+    <button type="button" class="btn">M</button>
+    <button type="button" class="btn">A</button>
+    <button type="button" class="btn">N</button>
+    <button type="button" class="btn">I</button>
+    <button type="button" class="btn">A</button>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <label for="">First group</label>
+      <div class="btn-group me-2" role="group" aria-label="First group">
+      
+        <button type="button" class="btn btn-success">I</button>
+        <button type="button" class="btn btn-success">M</button>
+        <button type="button" class="btn btn-success">N</button>
+        </div>
+        <label for="">Second group</label>
+        <div class="btn-group me-2" role="group" aria-label="First group">
+          
+        <button type="button" class="btn btn-warning">E</button>
+        <button type="button" class="btn btn-warning">A</button>
+        </div>
+        <label for="">Third group</label>
+        <div class="btn-group me-2" role="group" aria-label="First group">
+          
+        <button type="button" class="btn btn-danger">A</button>
+        </div>
+    
+    </div>
+    <br><br><br>
+    <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="./basic.html">Basic page</a></li>
+        <li><a class="dropdown-item" href="./advanced.html">Advanced page</a></li>
+      </ul>
+    </div>
+    <br><br><br>
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" placeholder="Enter your email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPlant1" class="form-label">Plant</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your plant">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Sign up for news letter</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </html>
 </body>
 </html>
